@@ -1,0 +1,24 @@
+contradictions.py: 9 extract(s), 89 numeric fact(s), 10 shared field(s), default tolerance 1.0%
+3 contradiction(s), 7 shared field(s) agree within tolerance
+
+C1 [CRITICAL] series_b_price_per_share  spread 50.0%
+    D01  $8.40            p.4
+    D02  $8.40            §1.1(a)
+    D05  $4.20            Art. IV(B) §1.1
+
+C2 [HIGH] arr_usd @ 2026-08-31  spread 20.0%
+    D01  $14.0M           p.3
+    D08  $11.2M           tab 1
+
+C3 [MEDIUM] fully_diluted_shares  spread 4.5%
+    D02  22,000,000       §3.2(c)
+    D07  21,000,000       p.6
+
+Agreed within tolerance:
+    common_shares_authorized  spread 0.00%  (D02 30,000,000, D05 30,000,000, D07 30,000,000)
+    gross_margin_fy2025_pct  spread 0.51%  (D01 78%, D06 77.6%)
+    nrr_pct @ 2026-08-31  spread 0.00%  (D01 118%, D08 118%)
+    post_money_valuation_usd  spread 0.11%  (D01 $185M, D07 $184.8M)
+    revenue_fy2025_usd  spread 0.00%  (D01 $8.0M, D06 $8.00M)
+    series_b_gross_proceeds_usd  spread 0.00%  (D01 $25.2M, D02 $25,200,000)
+    series_b_shares_issued  spread 0.00%  (D02 3,000,000, D07 3,000,000)

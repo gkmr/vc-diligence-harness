@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS and local state
+.DS_Store
+.state/
+*.bak
+*.pre-v*
+node_modules/
+
+# Real deal work never goes in git. Keep it under one of these.
+deals/
+private/

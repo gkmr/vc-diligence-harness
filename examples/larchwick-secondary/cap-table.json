@@ -1,0 +1,13 @@
+{
+  "company": "Larchwick, Inc. (invented)",
+  "as_of": "2026-03-02",
+  "sources": "D02 §1.1(a), §1.4, §3.2 capitalization; D05 Art. IV(B). Series B issue_price uses the D02 purchase price. See contradiction C1 for the charter figure.",
+  "classes": [
+    {"name": "Series B", "kind": "preferred", "shares": 3000000, "issue_price": 8.40, "multiple": 1.0, "seniority": 1},
+    {"name": "Series A", "kind": "preferred", "shares": 3500000, "issue_price": 2.00, "multiple": 1.0, "seniority": 2},
+    {"name": "Series Seed", "kind": "preferred", "shares": 3000000, "issue_price": 0.50, "multiple": 1.0, "seniority": 2},
+    {"name": "Common", "kind": "common", "shares": 9700000},
+    {"name": "Options and pool", "kind": "common", "shares": 2500000},
+    {"name": "Penny warrants", "kind": "common", "shares": 300000}
+  ]
+}
