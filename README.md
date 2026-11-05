@@ -1,5 +1,7 @@
 # vc-diligence-harness
 
+[![tests](https://github.com/gkmr/vc-diligence-harness/actions/workflows/tests.yml/badge.svg)](https://github.com/gkmr/vc-diligence-harness/actions/workflows/tests.yml) ![python](https://img.shields.io/badge/python-3.9%20%7C%203.12-blue) ![deps](https://img.shields.io/badge/dependencies-stdlib%20only-brightgreen) [![license](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+
 A Claude skill plus a small python3 harness that turns a venture data room into a decision: contradictions first, four gates, numbered asks, and one decisive open item.
 
 ## The problem
